@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="viewAnimals.html">View Animals</a>
+
+            <a class="nav-link" href="animalInfo.html">Animal Information</a>
+            <a class="nav-link" href="application.html">Apply</a>
+            <a class="nav-link" href="donation.html">Donate</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <title>Application</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row" id="row">
+        <div class="Apply text-center" id="heading">Application</div>
+      </div>
+
+      <div class="row" id="info">
+        <div class="col-9" id="text">
+          Name:
+          <input type="text" placeholder="First" />
+          <input type="text" placeholder="Middle Initial" />
+          <input type="text" placeholder="Last" />
+        </div>
+
+        <div class="col-9" id="text">
+          Date of Birth:
+          <input type="text" placeholder="xx/xx/xxxx" />
+        </div>
+
+        <div class="col-9" id="text">
+          Phone Number:
+          <input type="text" placeholder="Home" />
+          <input type="text" placeholder="Mobile" />
+        </div>
+
+        <div class="col-9" id="text">Address:</div>
+      </div>
+
+      <div class="row" id="info">
+        <div class="col-3" id="text">
+          <input type="text" id="text" placeholder="Box or Street" />
+        </div>
+
+        <div class="col-3">
+          <input type="text" id="text" placeholder="City" />
+        </div>
+
+        <div class="col-3">
+          <input type="text" id="text" placeholder="State" />
+        </div>
+
+        <div class="col-2">
+          <input type="text" id="text" placeholder="Zip Code" />
+        </div>
+      </div>
+
+      <div class="row" id="info">
+        <div class="col-3" id="text">
+          Email:
+          <input type="text" id="text" placeholder="Email Address" />
+        </div>
+      </div>
+      <br />
+
+      <div class="row" id="info">
+        <div class="col-3" id="text">Family Composition</div>
+      </div>
+      <div class="row" id="info">
+        <div class="col-2" id="text">Are there children in the home?</div>
+        <div class="col-8" id="text">
+          Yes
+          <input type="checkbox" />
+          No
+          <input type="checkbox" />
+
+          If so, how many?
+          <input type="text" />
+          What ages?
+          <input type="text" />
+        </div>
+      </div>
+
+      <div class="row" id="info">
+        <div class="col-2" id="text">Are there children in the home?</div>
+        <div class="col-8" id="text">
+          Yes
+          <input type="checkbox" />
+          No
+          <input type="checkbox" />
+
+          If so, how many?
+          <input type="text" />
+          What ages?
+          <input type="text" />
+        </div>
+      </div>
+      <div class="row" id="info">
+        <div class="col-6" id="text">
+          What is the dwelling type?
+          <input type="text" placeholder="House/Apartment/Studio..." />
+        </div>
+        <div class="col-4" id="text">
+          Are there stairs?
+          <input type="text" placeholder="Y/N" />
+        </div>
+      </div>
+      <div class="row" id="info">
+        <div class="col-3" id="text">
+          What type of area do you live in?
+          <input type="text" placeholder="City/Suburbs/Country..." />
+        </div>
+        <div class="col-3" id="text">
+          Do you have a yard?
+          <input type="text" placeholder="Y/N" />
+        </div>
+        <div class="col-6" id="text">
+          What is the area like for walks?
+          <input
+            type="text-box"
+            id="textBox"
+            placeholder="A lot of sidewalks/many parks..."
+          />
+        </div>
+
+        <div class="col-6" id="text">
+          What else do you want us to know?
+          <input type="text-box" id="textBox" placeholder="Tell us more!" />
+        </div>
+      </div>
+      <div class="row" id="row">
+        <div class="Submit text-center" id="submit">
+          <input type="submit" />
+          <a href="administrator.html"><input type="email" /></a>
+          <a href="User.html"><input type="email" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

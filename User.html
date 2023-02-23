@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="home.html">Home</a>
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="viewAnimals.html">View Animals</a>
+              
+              <a class="nav-link" href="animalInfo.html">Animal Information</a>
+              <a class="nav-link" href="application.html">Apply</a>
+              <a class="nav-link" href="donation.html">Donate</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+    <title>User Access</title>
+</head>
+<body>
+    <div class="container-fluid" id="fluid">
+        <div class="row" id="row">
+               <div class="User Access text-center" id="heading">
+                    User Access- Post, Edit or Remove Your Listing
+                </div>
+        </div>    
+       
+        <div class="row" id="row">
+            <div class="col-1" id="text">
+                Animal Type
+            </div>
+            <div class="col-2" id="text">
+                <input type="text"/>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-3" id="text" >
+                Name:
+                <input type="text"/>
+            </div>
+                
+      
+            <div class="col-3" id="text">
+                Breed:
+                <input type="text"/>
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-3" id="text">
+                Age:
+                <input type="text"/>
+            </div> 
+            <div class="col-4" id="text">
+                Description:
+                <input type="text"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4" id="text">
+                <input type="file">
+                <a href="animalInfo"></a>
+            </div>
+        </div>
+
+               
+                
+        <div class="row">
+            <div class="col-4" id="text">
+                Rehoming Fee Needed?:
+            </div>
+        </div>
+
+        <div class="row>"
+            <div class="col-4"id="text">
+                <input type="checkbox" id="Yes" name="Yes" value="Yes">
+                <label for="Rehome"> Yes, please.</label><br>
+        
+
+                <div><input type="checkbox" id="RehomeNo" name="RehomeNo" value="No">
+                    <label for="Rehome">No, thank you.</a></label><br>
+            </div>  
+        </div>
+
+        <div class="row">
+            <div class="col-2" id="text">
+                Suggested Amount:
+                <input type="text"/>
+            </div>
+        </div>
+        
+            
+        <div class="row">
+            <div class="col-2" id="text">
+                Brief Medical History:
+                <input type="text-box" id="textBox"/> <!--Add Height and Width-->
+            </div>
+            
+        </div>
+
+        <div class="row" id="text">
+            <div class="col-4">
+                    
+                <div class="Upload">
+                    Upload a photo:
+                </div>
+                <input type="file" class="fullWidth" id="Upload"/>
+                <input type="photo" id="photo" name="photo" placeholder="Photo"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            </div>
+        
+            <div class="col-4">
+                    
+                <div class="Upload">
+                    Upload a photo:
+                </div>
+                <input type="file" class="fullWidth" id="Upload"/>
+                <input type="photo" id="photo" name="photo" placeholder="Photo"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            </div>
+        
+        </div>
+
+        <div class="row" id="text">
+            <div class="col-2">
+                    
+                <div class="Upload">
+                    Upload a photo:
+                </div>
+                <input type="file" class="fullWidth" id="Upload"/>
+                <input type="photo" id="photo" name="photo" placeholder="Photo"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            </div>
+        
+        </div>
+
+        <div class="row" id="text">
+            <div class="col-4">
+                What's Your Story?
+                
+                <input type="text-box" id="textBox"/>
+            </div>
+        </div>
+        <div class="row" id="text">
+            <div class="col-3">
+                <input type="submit" id="submit"/>
+                <a href="viewAnimals.html"></a>
+                <a href="animalInfo.html"></a>
+            </div>
+        </div>
+
+        <div class="row" id="text">
+            <div class="col-4">
+               <button>Delete Post</button>
+               
+            </div>
+        </div>
+        
+
+        
+
+
+
+    </div>
+
+
+
+
+   
+   
+</body>
+</html>
