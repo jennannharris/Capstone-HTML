@@ -19,6 +19,10 @@ body {
    
 }
 
+#checkbox {
+    size: 20px;
+}
+
 
 #pleaCenter{
     text-align: center
@@ -48,9 +52,12 @@ body {
     
 }
 
+#animal, #age {
+    margin-right: 5px;
+}
+
 #text {
-    font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 40px;
     margin-bottom: 50px;
     margin-left: 10px;
 }
@@ -63,22 +70,20 @@ body {
 }
 
 #sadDog {
-    font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 50px;
     margin-bottom: 50px;
     margin-left: 10px;
 }
 
 #happyDog {
-    font-size:xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 50px;
     margin-bottom: 50px;
     margin-left: 10px;
 }
 
 #links {
-    padding-left: 3px;
-    padding-right: 3px;
+    margin-left: 30px;
+    margin-right: 3px;
 }
 
 #photo, #click, {
@@ -89,6 +94,14 @@ body {
     margin-top: 40px;
 }
 
+#adminPage {
+    background-color:  rgb(238, 67, 102);
+    color: rgb(29, 206, 206);
+    
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
 
 
 
