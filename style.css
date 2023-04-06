@@ -4,13 +4,12 @@ body {
     
     font-weight: bold;
     margin-bottom: 5px;
+    font-size: 30px;
 }
 
 #fluid {
     margin-left: 3px;
 }
-
-
 
 
 #signUpLog {
@@ -19,7 +18,6 @@ body {
     margin-left: 10px;
    
 }
-
 
 
 #pleaCenter{
@@ -41,12 +39,13 @@ body {
 
 #pleaText{
     color: black;
-    font-size: large;
+    font-size: larger;
 }
 
 #submit {
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 15px;
+    
 }
 
 #text {
@@ -77,6 +76,18 @@ body {
     margin-left: 10px;
 }
 
+#links {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#photo, #click, {
+    margin-left: 20px;
+}
+
+#click {
+    margin-top: 40px;
+}
 
 
 
